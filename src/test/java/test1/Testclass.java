@@ -27,11 +27,8 @@ public class Testclass {
 		email.sendKeys("Jai");
 		
 	}
-	@AfterTest
-	public void quitBrowser() {
-		
-		driver.quit();
-	}
+	
+	
 	public static void main(String[] args) {
 		
 

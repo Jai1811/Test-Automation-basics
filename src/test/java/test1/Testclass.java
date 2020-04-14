@@ -25,7 +25,7 @@ public class Testclass {
 	public void checklogin() {
 		WebElement email =  driver.findElement(By.id("email"));
 		email.sendKeys("Jai");
-		
+		System.out.println("This is a most important thing in life");
 	}
 	
 	

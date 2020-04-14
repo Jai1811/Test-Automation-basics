@@ -26,12 +26,16 @@ public class Testclass {
 		WebElement email =  driver.findElement(By.id("email"));
 		email.sendKeys("Jai");
 		System.out.println("This is a most important thing in life");
+		System.out.println("This is a new change in devlop and devlopment of this feature is compelted");
+
 	}
 	
 	
 	public static void main(String[] args) {
 	System.out.println("This is pull Request");
 	System.out.println("This is for fetching the code");
+	System.out.println("This is a new change in devlop and devlopment of this feature is compelted");
+	
 	}
 
 }

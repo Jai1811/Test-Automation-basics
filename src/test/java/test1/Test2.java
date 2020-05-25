@@ -13,6 +13,8 @@ public void clickONLogin() {
 @AfterTest
 public void quitBrowser() {
 	
+	System.out.println("Browser is going to be closed");
 	driver.quit();
+	System.out.println("Browser is closed");
 }
 }

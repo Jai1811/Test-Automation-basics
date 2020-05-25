@@ -8,7 +8,7 @@ public class Test2 extends Testclass {
 @Test
 public void clickONLogin() {
 	
-	driver.findElement(By.id("u_0_b")).click();
+	driver.findElement(By.xpath("//input[@id='u_0_b']")).click();
 }
 @AfterTest
 public void quitBrowser() {

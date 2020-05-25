@@ -24,7 +24,7 @@ public class Testclass {
 	@Test
 	public void checklogin() {
 		WebElement email =  driver.findElement(By.id("email"));
-		email.sendKeys("Jai");
+		email.sendKeys("vyasjai18@yahoo.com");
 		System.out.println("This is a most important thing in life");
 		System.out.println("This is a new change in devlop and devlopment of this feature is compelted");
 

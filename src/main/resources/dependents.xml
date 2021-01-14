@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test without groups">
+<test name="System Test">
+	<groups>
+		<dependencies>
+			<group depends-on="Regression" name="System Testing"></group>
+		</dependencies>
+	</groups>
+		<classes>
+			<class name="test.NewTest"></class>
+		</classes>
+	</test>
+</suite>

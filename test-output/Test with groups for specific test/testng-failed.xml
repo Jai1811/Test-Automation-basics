@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Test with groups for specific test]">
-  <test thread-count="5" name="Test Maven Testing(failed)">
+  <test thread-count="5" name="Regression(failed)">
+    <groups>
+      <run>
+        <exclude name="System Testing"/>
+      </run>
+    </groups>
     <classes>
-      <class name="test1.Test2">
+      <class name="test.NewTest">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="afterTest"/>
-          <include name="beforeClass"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="invokeBrowser"/>
-          <include name="quitBrowser"/>
-          <include name="afterClass"/>
-          <include name="clickONLogin"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- test1.Test2 -->
+      </class> <!-- test.NewTest -->
+      <class name="test1.Testclass">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="Sum"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="checklogin"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test1.Testclass -->
     </classes>
-  </test> <!-- Test Maven Testing(failed) -->
+  </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [Test with groups for specific test] -->

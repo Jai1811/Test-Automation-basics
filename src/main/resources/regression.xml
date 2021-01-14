@@ -8,6 +8,7 @@
 		</groups>
 		<classes>
 			<class name="test.NewTest"></class>
+			<class name="test1.Testclass"></class>
 		</classes>
 	</test>
 	<test name="Smoke Tesing">

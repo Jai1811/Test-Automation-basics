@@ -7,7 +7,9 @@
 			<class name="test.NewTest"></class>
 		</classes>
 	</test>
-	<test>
-	<class name="test.NewTest"></class>
-	</test>>	
+	<test name = "Smoke Test">
+	<packages>
+	<package name = "test"></package>
+	</packages>
+	</test>	
 </suite>

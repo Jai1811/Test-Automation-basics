@@ -12,5 +12,9 @@ public class NewTest {
   public void beforeTest() {
 	  System.out.println("beforeTest of test");
   }
-
+  @Test(groups= {"System Testing"})
+  public void fnew() {
+	  System.out.println("test 2 of the class newTest ");
+  }
+  
 }

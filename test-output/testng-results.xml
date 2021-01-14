@@ -1,148 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
-    <line>
-      <![CDATA[This is the Before method in Testclass]]>
-    </line>
-    <line>
-      <![CDATA[This is the Before method in Testclass]]>
-    </line>
-    <line>
-      <![CDATA[This is the Before method in Testclass]]>
-    </line>
-    <line>
-      <![CDATA[This is the Before method in Testclass]]>
-    </line>
   </reporter-output>
-  <suite name="TestNG Parameters Suite" duration-ms="85" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
+  <suite name="Parallel Testing Suite" duration-ms="13108" started-at="2021-01-15T00:49:19 IST" finished-at="2021-01-15T00:49:33 IST">
     <groups>
-      <group name="Regression Testing">
-        <method signature="Testclass.checklogin()[pri:1, instance:test1.Testclass@131276c2]" name="checklogin" class="test1.Testclass"/>
-      </group> <!-- Regression Testing -->
     </groups>
-    <test name="Params" duration-ms="62" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
-      <class name="test1.Testclass">
-        <test-method status="PASS" signature="beforeTest(int, int)[pri:0, instance:test1.Testclass@131276c2]" name="beforeTest" is-config="true" duration-ms="4" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
+    <test name="Parallel Tests" duration-ms="13108" started-at="2021-01-15T00:49:19 IST" finished-at="2021-01-15T00:49:33 IST">
+      <class name="test.ParallelExecution">
+        <test-method status="PASS" signature="invokeChromeBrowser()[pri:0, instance:test.ParallelExecution@30b8a058]" name="invokeChromeBrowser" duration-ms="5289" started-at="2021-01-15T00:49:19 IST" finished-at="2021-01-15T00:49:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test1.Testclass@131276c2]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
+        </test-method> <!-- invokeChromeBrowser -->
+        <test-method status="PASS" signature="invokeFireFoxBrowser()[pri:0, instance:test.ParallelExecution@30b8a058]" name="invokeFireFoxBrowser" duration-ms="13075" started-at="2021-01-15T00:49:19 IST" finished-at="2021-01-15T00:49:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test1.Testclass@131276c2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[This is the Before method in Testclass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="DataProvidingMethod(java.util.Map)[pri:0, instance:test1.Testclass@131276c2]" name="DataProvidingMethod" duration-ms="7" started-at="2021-01-15T00:07:31 IST" data-provider="methodacceptingDataTable" finished-at="2021-01-15T00:07:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{9=4, 4=5, 5=8}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DataProvidingMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test1.Testclass@131276c2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[This is the Before method in Testclass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Sum(int, int)[pri:0, instance:test1.Testclass@131276c2]" name="Sum" duration-ms="1" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Sum -->
-        <test-method status="PASS" signature="Sum2DataProvider(java.util.Map)[pri:0, instance:test1.Testclass@131276c2]" name="Sum2DataProvider" duration-ms="1" started-at="2021-01-15T00:07:31 IST" data-provider="DataTable" finished-at="2021-01-15T00:07:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{1=2, 2=3, 3=4}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Sum2DataProvider -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test1.Testclass@131276c2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[This is the Before method in Testclass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test1.Testclass@131276c2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[This is the Before method in Testclass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checklogin()[pri:1, instance:test1.Testclass@131276c2]" name="checklogin" duration-ms="1" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checklogin -->
-        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:test1.Testclass@131276c2]" name="afterTest" is-config="true" duration-ms="2" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Optional to be selected]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- test1.Testclass -->
-    </test> <!-- Params -->
-    <test name="Params 2" duration-ms="1" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
-      <class name="test1.Testclass">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:test1.Testclass@131276c2]" name="invokeBrowser" is-config="true" duration-ms="338" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:test1.Testclass@59e5ddf]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-01-15T00:07:31 IST" finished-at="2021-01-15T00:07:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Optional to be selected]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- test1.Testclass -->
-    </test> <!-- Params 2 -->
-  </suite> <!-- TestNG Parameters Suite -->
+        </test-method> <!-- invokeFireFoxBrowser -->
+      </class> <!-- test.ParallelExecution -->
+    </test> <!-- Parallel Tests -->
+  </suite> <!-- Parallel Testing Suite -->
 </testng-results>

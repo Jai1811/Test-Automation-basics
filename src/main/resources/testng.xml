@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name=" Test aemkawasakitest Maven">
-
-
-<test name="Test Maven Testing">
-	<packages>
-		<package name="test1.*" />
-		
-	</packages>
-	
-</test>
+<suite name="Test without groups">
+	<test name="System Test">
+		<classes>
+			<class name="test1.Testclass"></class>
+			<class name="test1.Test2"></class>
+			<class name="test.NewTest"></class>
+		</classes>
+	</test>
+	<test>
+	<class name="test.NewTest"></class>
+	</test>>	
 </suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test with groups for suite">
+	<groups>
+			<run>
+				<include name="Smoke" />
+			</run>
+		</groups>
+	<test name="System Integration testing">	
+		<classes>
+			<class name="test1.Testclass"></class>
+			<class name="test1.Test2"></class>
+			<class name="test.NewTest"></class>
+		</classes>
+	</test>
+</suite>

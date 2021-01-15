@@ -10,11 +10,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import listeners.ItestListnersMethods;
 
+@Listeners(ItestListnersMethods.class)
 public class Test2 extends Testclass {
 
 	@BeforeSuite(groups= {"Regression Testing"})

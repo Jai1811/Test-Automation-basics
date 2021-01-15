@@ -8,12 +8,43 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Parallel Testing Suite</th></tr>
-<tr><td><a href="#t0">Parallel Tests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13,108</td><td></td><td></td></tr>
+<tr><th colspan="7">Test without groups</th></tr>
+<tr><td><a href="#t0">System Test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num attn">1</td><td class="num">62</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Smoke Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">8,054</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num attn">3</th><th class="num">0</th><th class="num attn">1</th><th class="num">8,116</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Parallel Testing Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Parallel Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">test.ParallelExecution</td><td><a href="#m0">invokeChromeBrowser</a></td><td rowspan="1">1610651959968</td><td rowspan="1">5289</td></tr><tr class="passedeven"><td><a href="#m1">invokeFireFoxBrowser</a></td><td rowspan="1">1610651959968</td><td rowspan="1">13075</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test without groups</th></tr></tbody><tbody id="t0"><tr><th colspan="4">System Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">test1.Testclass</td><td><a href="#m0">beforeTest</a></td><td rowspan="1">1610687956449</td><td rowspan="1">-1610687956449</td></tr><tr><th colspan="4">System Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test1.Testclass</td><td><a href="#m1">Sum</a></td><td rowspan="1">1610687956490</td><td rowspan="1">0</td></tr><tr><th colspan="4">System Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">test1.Testclass</td><td><a href="#m2">afterTest</a></td><td rowspan="1">1610687956508</td><td rowspan="1">-1610687956508</td></tr><tr class="skippedeven"><td><a href="#m3">beforeClass</a></td><td rowspan="1">1610687956465</td><td rowspan="1">-1610687956465</td></tr><tr class="skippedeven"><td><a href="#m4">beforeMethod</a></td><td rowspan="3">1610687956493</td><td rowspan="3">-1610687956493</td></tr><tr class="skippedeven"><td><a href="#m5">beforeMethod</a></td></tr><tr class="skippedeven"><td><a href="#m6">beforeMethod</a></td></tr><tr><th colspan="4">System Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">test1.Testclass</td><td><a href="#m7">DataProvidingMethod</a></td><td rowspan="1">1610687956483</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">Sum2DataProvider</a></td><td rowspan="1">1610687956494</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m9">checklogin</a></td><td rowspan="1">1610687956504</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Smoke Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">test.NewTest</td><td><a href="#m10">f</a></td><td rowspan="1">1610687964591</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m11">fnew</a></td><td rowspan="1">1610687964593</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="2">test.ParallelExecution</td><td><a href="#m12">invokeChromeBrowser</a></td><td rowspan="1">1610687956544</td><td rowspan="1">4207</td></tr><tr class="passedodd"><td><a href="#m13">invokeFireFoxBrowser</a></td><td rowspan="1">1610687960754</td><td rowspan="1">3836</td></tr></tbody>
 </table>
-<h2>Parallel Tests</h2><h3 id="m0">test.ParallelExecution#invokeChromeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">test.ParallelExecution#invokeFireFoxBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>System Test</h2><h3 id="m0">test1.Testclass#beforeTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;val1&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in /Users/a701823/eclipse-workspace/Test-Automation-basics/src/main/resources/Listeners.xml
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test1.Testclass#Sum</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;val1&apos; is required by @Test on method Sum but has not been marked @Optional or defined
+in /Users/a701823/eclipse-workspace/Test-Automation-basics/src/main/resources/Listeners.xml
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test1.Testclass#afterTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test1.Testclass#beforeClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test1.Testclass#beforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test1.Testclass#beforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test1.Testclass#beforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test1.Testclass#DataProvidingMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;val1&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in /Users/a701823/eclipse-workspace/Test-Automation-basics/src/main/resources/Listeners.xml
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">test1.Testclass#Sum2DataProvider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;val1&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in /Users/a701823/eclipse-workspace/Test-Automation-basics/src/main/resources/Listeners.xml
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">test1.Testclass#checklogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;val1&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in /Users/a701823/eclipse-workspace/Test-Automation-basics/src/main/resources/Listeners.xml
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Smoke Test</h2><h3 id="m10">test.NewTest#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">test.NewTest#fnew</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">test.ParallelExecution#invokeChromeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">test.ParallelExecution#invokeFireFoxBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

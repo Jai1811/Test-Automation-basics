@@ -1,8 +1,13 @@
 package test;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeTest;
 
+import listeners.ItestListnersMethods;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
+
+@Listeners(ItestListnersMethods.class)
 public class NewTest {
   @Test(groups= {"Regression"})
   public void f() {

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Smoke Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jan 14 17:13:45 IST 2021</td>
+<td>Started on:</td><td>Fri Jan 15 10:49:16 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (37 ms)</td>
+<tr><td>Total time:</td><td>8 seconds (8054 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,54 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test1.Testclass.Sum()'><b>Sum</b><br>Test class: test1.Testclass</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;val1&apos; is required by @Test on method Sum but has not been marked @Optional or defined
+in /Users/a701823/eclipse-workspace/Test-Automation-basics/src/main/resources/Listeners.xml
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace382750013", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace382750013'><pre>org.testng.TestNGException: 
+Parameter &apos;val1&apos; is required by @Test on method Sum but has not been marked @Optional or defined
+in /Users/a701823/eclipse-workspace/Test-Automation-basics/src/main/resources/Listeners.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:895)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test1.Testclass@76707e36</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -78,12 +126,129 @@ function toggleAllBoxes() {
 <td title='test.NewTest.f()'><b>f</b><br>Test class: test.NewTest</td>
 <td></td>
 <td>0</td>
-<td>test.NewTest@4d41cee</td></tr>
+<td>test.NewTest@7a1ebcd8</td></tr>
 <tr>
 <td title='test.NewTest.fnew()'><b>fnew</b><br>Test class: test.NewTest</td>
 <td></td>
 <td>0</td>
-<td>test.NewTest@4d41cee</td></tr>
+<td>test.NewTest@7a1ebcd8</td></tr>
+<tr>
+<td title='test.ParallelExecution.invokeChromeBrowser()'><b>invokeChromeBrowser</b><br>Test class: test.ParallelExecution</td>
+<td></td>
+<td>4</td>
+<td>test.ParallelExecution@5faeada1</td></tr>
+<tr>
+<td title='test.ParallelExecution.invokeFireFoxBrowser()'><b>invokeFireFoxBrowser</b><br>Test class: test.ParallelExecution</td>
+<td></td>
+<td>3</td>
+<td>test.ParallelExecution@5faeada1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test1.Testclass.DataProvidingMethod()'><b>DataProvidingMethod</b><br>Test class: test1.Testclass</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;val1&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in /Users/a701823/eclipse-workspace/Test-Automation-basics/src/main/resources/Listeners.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace762476028", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace762476028'><pre>org.testng.TestNGException: 
+Parameter &apos;val1&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in /Users/a701823/eclipse-workspace/Test-Automation-basics/src/main/resources/Listeners.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+	at org.testng.TestRunner.run(TestRunner.java:584)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test1.Testclass@76707e36</td></tr>
+<tr>
+<td title='test1.Testclass.Sum2DataProvider()'><b>Sum2DataProvider</b><br>Test class: test1.Testclass</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;val1&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in /Users/a701823/eclipse-workspace/Test-Automation-basics/src/main/resources/Listeners.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace489349054", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace489349054'><pre>org.testng.TestNGException: 
+Parameter &apos;val1&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in /Users/a701823/eclipse-workspace/Test-Automation-basics/src/main/resources/Listeners.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+	at org.testng.TestRunner.run(TestRunner.java:584)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test1.Testclass@76707e36</td></tr>
+<tr>
+<td title='test1.Testclass.checklogin()'><b>checklogin</b><br>Test class: test1.Testclass</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;val1&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in /Users/a701823/eclipse-workspace/Test-Automation-basics/src/main/resources/Listeners.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace574434418", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace574434418'><pre>org.testng.TestNGException: 
+Parameter &apos;val1&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in /Users/a701823/eclipse-workspace/Test-Automation-basics/src/main/resources/Listeners.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+	at org.testng.TestRunner.run(TestRunner.java:584)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test1.Testclass@76707e36</td></tr>
 </table><p>
 </body>
 </html>

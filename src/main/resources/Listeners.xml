@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test without groups">
+<Listners>
+<Listner class-name="listners.ItestListnersMethods" ></Listner>
+</Listners>
+	<test name="System Test">
+		<classes>
+			<class name="test1.Testclass"></class>
+		</classes>
+	</test>
+	<test name = "Smoke Test">
+	<packages>
+	<package name = "test"></package>
+	</packages>
+	</test>	
+</suite>

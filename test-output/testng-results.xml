@@ -2,10 +2,10 @@
 <testng-results skipped="3" failed="1" ignored="0" total="8" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Test without groups" duration-ms="8148" started-at="2021-01-15T10:49:16 IST" finished-at="2021-01-15T10:49:24 IST">
+  <suite name="Test without groups" duration-ms="8541" started-at="2021-01-15T12:09:28 IST" finished-at="2021-01-15T12:09:36 IST">
     <groups>
       <group name="Regression Testing">
-        <method signature="Testclass.checklogin()[pri:1, instance:test1.Testclass@76707e36]" name="checklogin" class="test1.Testclass"/>
+        <method signature="Testclass.checklogin()[pri:1, instance:test1.Testclass@614ddd49]" name="checklogin" class="test1.Testclass"/>
       </group> <!-- Regression Testing -->
       <group name="System Testing">
         <method signature="NewTest.fnew()[pri:0, instance:test.NewTest@7a1ebcd8]" name="fnew" class="test.NewTest"/>
@@ -14,9 +14,9 @@
         <method signature="NewTest.f()[pri:0, instance:test.NewTest@7a1ebcd8]" name="f" class="test.NewTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test name="System Test" duration-ms="62" started-at="2021-01-15T10:49:16 IST" finished-at="2021-01-15T10:49:16 IST">
+    <test name="System Test" duration-ms="57" started-at="2021-01-15T12:09:28 IST" finished-at="2021-01-15T12:09:28 IST">
       <class name="test1.Testclass">
-        <test-method status="FAIL" signature="beforeTest(int, int)[pri:0, instance:test1.Testclass@76707e36]" name="beforeTest" is-config="true" duration-ms="-1610687956449" started-at="2021-01-15T10:49:16 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="FAIL" signature="beforeTest(int, int)[pri:0, instance:test1.Testclass@614ddd49]" name="beforeTest" is-config="true" duration-ms="-1610692768259" started-at="2021-01-15T12:09:28 IST" finished-at="1970-01-01T05:30:00 IST">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -54,15 +54,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="beforeClass()[pri:0, instance:test1.Testclass@76707e36]" name="beforeClass" is-config="true" duration-ms="-1610687956465" started-at="2021-01-15T10:49:16 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="beforeClass()[pri:0, instance:test1.Testclass@614ddd49]" name="beforeClass" is-config="true" duration-ms="-1610692768274" started-at="2021-01-15T12:09:28 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:test1.Testclass@76707e36]" name="beforeMethod" is-config="true" duration-ms="-1610687956481" started-at="2021-01-15T10:49:16 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:test1.Testclass@614ddd49]" name="beforeMethod" is-config="true" duration-ms="-1610692768289" started-at="2021-01-15T12:09:28 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="DataProvidingMethod(java.util.Map)[pri:0, instance:test1.Testclass@76707e36]" name="DataProvidingMethod" duration-ms="0" started-at="2021-01-15T10:49:16 IST" data-provider="methodacceptingDataTable" finished-at="2021-01-15T10:49:16 IST">
+        <test-method status="SKIP" signature="DataProvidingMethod(java.util.Map)[pri:0, instance:test1.Testclass@614ddd49]" name="DataProvidingMethod" duration-ms="0" started-at="2021-01-15T12:09:28 IST" data-provider="methodacceptingDataTable" finished-at="2021-01-15T12:09:28 IST">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -100,7 +100,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataProvidingMethod -->
-        <test-method status="FAIL" signature="Sum(int, int)[pri:0, instance:test1.Testclass@76707e36]" name="Sum" duration-ms="0" started-at="2021-01-15T10:49:16 IST" finished-at="2021-01-15T10:49:16 IST">
+        <test-method status="FAIL" signature="Sum(int, int)[pri:0, instance:test1.Testclass@614ddd49]" name="Sum" duration-ms="0" started-at="2021-01-15T12:09:28 IST" finished-at="2021-01-15T12:09:28 IST">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -144,11 +144,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Sum -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:test1.Testclass@76707e36]" name="beforeMethod" is-config="true" duration-ms="-1610687956493" started-at="2021-01-15T10:49:16 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:test1.Testclass@614ddd49]" name="beforeMethod" is-config="true" duration-ms="-1610692768302" started-at="2021-01-15T12:09:28 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="Sum2DataProvider(java.util.Map)[pri:0, instance:test1.Testclass@76707e36]" name="Sum2DataProvider" duration-ms="0" started-at="2021-01-15T10:49:16 IST" data-provider="DataTable" finished-at="2021-01-15T10:49:16 IST">
+        <test-method status="SKIP" signature="Sum2DataProvider(java.util.Map)[pri:0, instance:test1.Testclass@614ddd49]" name="Sum2DataProvider" duration-ms="0" started-at="2021-01-15T12:09:28 IST" data-provider="DataTable" finished-at="2021-01-15T12:09:28 IST">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -186,11 +186,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Sum2DataProvider -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:test1.Testclass@76707e36]" name="beforeMethod" is-config="true" duration-ms="-1610687956503" started-at="2021-01-15T10:49:16 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:test1.Testclass@614ddd49]" name="beforeMethod" is-config="true" duration-ms="-1610692768309" started-at="2021-01-15T12:09:28 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="checklogin()[pri:1, instance:test1.Testclass@76707e36]" name="checklogin" duration-ms="0" started-at="2021-01-15T10:49:16 IST" finished-at="2021-01-15T10:49:16 IST">
+        <test-method status="SKIP" signature="checklogin()[pri:1, instance:test1.Testclass@614ddd49]" name="checklogin" duration-ms="0" started-at="2021-01-15T12:09:28 IST" finished-at="2021-01-15T12:09:28 IST">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -228,39 +228,39 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checklogin -->
-        <test-method status="SKIP" signature="afterTest(java.lang.String)[pri:0, instance:test1.Testclass@76707e36]" name="afterTest" is-config="true" duration-ms="-1610687956508" started-at="2021-01-15T10:49:16 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="afterTest(java.lang.String)[pri:0, instance:test1.Testclass@614ddd49]" name="afterTest" is-config="true" duration-ms="-1610692768315" started-at="2021-01-15T12:09:28 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- test1.Testclass -->
     </test> <!-- System Test -->
-    <test name="Smoke Test" duration-ms="8054" started-at="2021-01-15T10:49:16 IST" finished-at="2021-01-15T10:49:24 IST">
+    <test name="Smoke Test" duration-ms="8452" started-at="2021-01-15T12:09:28 IST" finished-at="2021-01-15T12:09:36 IST">
       <class name="test.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.NewTest@7a1ebcd8]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-01-15T10:49:16 IST" finished-at="2021-01-15T10:49:16 IST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.NewTest@7a1ebcd8]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-01-15T12:09:28 IST" finished-at="2021-01-15T12:09:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:test.NewTest@7a1ebcd8]" name="f" duration-ms="1" started-at="2021-01-15T10:49:24 IST" finished-at="2021-01-15T10:49:24 IST">
+        <test-method status="PASS" signature="f()[pri:0, instance:test.NewTest@7a1ebcd8]" name="f" duration-ms="0" started-at="2021-01-15T12:09:36 IST" finished-at="2021-01-15T12:09:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="fnew()[pri:0, instance:test.NewTest@7a1ebcd8]" name="fnew" duration-ms="1" started-at="2021-01-15T10:49:24 IST" finished-at="2021-01-15T10:49:24 IST">
+        <test-method status="PASS" signature="fnew()[pri:0, instance:test.NewTest@7a1ebcd8]" name="fnew" duration-ms="1" started-at="2021-01-15T12:09:36 IST" finished-at="2021-01-15T12:09:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fnew -->
       </class> <!-- test.NewTest -->
       <class name="test.ParallelExecution">
-        <test-method status="PASS" signature="invokeChromeBrowser()[pri:0, instance:test.ParallelExecution@5faeada1]" name="invokeChromeBrowser" duration-ms="4207" started-at="2021-01-15T10:49:16 IST" finished-at="2021-01-15T10:49:20 IST">
+        <test-method status="PASS" signature="invokeChromeBrowser()[pri:0, instance:test.ParallelExecution@5faeada1]" name="invokeChromeBrowser" duration-ms="4280" started-at="2021-01-15T12:09:28 IST" finished-at="2021-01-15T12:09:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeChromeBrowser -->
-        <test-method status="PASS" signature="invokeFireFoxBrowser()[pri:0, instance:test.ParallelExecution@5faeada1]" name="invokeFireFoxBrowser" duration-ms="3836" started-at="2021-01-15T10:49:20 IST" finished-at="2021-01-15T10:49:24 IST">
+        <test-method status="PASS" signature="invokeFireFoxBrowser()[pri:0, instance:test.ParallelExecution@5faeada1]" name="invokeFireFoxBrowser" duration-ms="4163" started-at="2021-01-15T12:09:32 IST" finished-at="2021-01-15T12:09:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeFireFoxBrowser -->
       </class> <!-- test.ParallelExecution -->
       <class name="test1.Testclass">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:test1.Testclass@76707e36]" name="invokeBrowser" is-config="true" duration-ms="289" started-at="2021-01-15T10:49:16 IST" finished-at="2021-01-15T10:49:16 IST">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:test1.Testclass@614ddd49]" name="invokeBrowser" is-config="true" duration-ms="271" started-at="2021-01-15T12:09:27 IST" finished-at="2021-01-15T12:09:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->

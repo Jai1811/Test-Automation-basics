@@ -44,7 +44,7 @@ public class Testclass {
 
 
 	}
-	@Test
+	@Test(retryAnalyzer = ItestListnersMethods.class)
 	@Parameters ({"val1", "val2"})
 	public void Sum(int v1, int v2) {
 		int finalsum = v1 + v2;

@@ -2,8 +2,8 @@
 <suite name="Test without groups">
 	<test name="System Test">
 		<classes>
-			<class name="test1.Testclass"></class>
-			<class name="test1.Test2"></class>
+			<!-- <class name="test1.Testclass"></class>
+			<class name="test1.Test2"></class> -->
 			<class name="test.NewTest"></class>
 		</classes>
 	</test>

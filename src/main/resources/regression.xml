@@ -11,7 +11,7 @@
 			<class name="test1.Testclass"></class>
 		</classes>
 	</test>
-	<test name="Smoke Tesing">
+	<test name="Regression Testing">
 		<classes>
 			<!-- <class name="test1.Testclass"></class>
 			<class name="test1.Test2"></class>
